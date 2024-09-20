@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DYNAMIC RESUME BUILDER</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form id="resume-form">
+            <h1>Resume Builder </h1>
+            <h3>Personal Information</h3>
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <input type="text" id="phone" placeholder="Phone Number" required>
+            
+            <h3>Education</h3>
+            <input type="text" id="education" placeholder="Degree and Institution" required>
+            
+            <h3>Work Experience</h3>
+            <textarea id="experience" placeholder="Describe your experience"></textarea>
+            
+            <h3>Skills</h3>
+            <input type="text" id="skills" placeholder="List your skills" required>
+            
+            <button type="button" onclick="generateResume()">Generate Resume</button>
+        </form>
+
+        <br>
+        <br>
+
+        <h1 id="Resume-heading">Resume</h1>
+
+        <div id="resume-container">
+        <h2>Personal Information</h2>
+        <strong>Name:</strong>
+        <p id="userName"></p>
+
+        <strong>Phone No:</strong>
+        <p id="userPhoneNo"></p>
+
+        <strong>Email: </strong>
+        <p id="userEmail"></p>
+
+        <h2>Education</h2>
+        <p id="usereducation"></p>
+
+        <h2>Skills</h2>
+        <p id="userSkills"></p>
+
+        <h2>Experience</h2>
+        <p id="userExperience"></p>
+
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>

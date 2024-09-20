@@ -1,0 +1,61 @@
+.container {
+    display: flexbox;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: ivory;
+    align-items: center;
+}
+
+h1,h2 ,h3{
+    text-decoration-line: underline;
+    color: darkblue;
+}
+form, #resume-preview {
+    width: 50%;
+    border: 3px solid #2d34ba;
+    padding: 15px;
+    border-radius: 5px;
+
+
+}
+
+input, textarea {
+    display: flexbox;
+    width:80%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00ffff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #00adb3;
+}
+
+
+/* CSS Styling for Resume */
+#Resume-heading{
+    text-align: center;
+
+}
+
+#resume-container{
+    width: 650px;
+    border:2px solid #005f73;
+    border-radius: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #7bd1c0;
+    box-shadow: 2px 5px 10px 3px rgba(0, 0, 0.10);
+    margin: auto;
+    padding: 40px;
+}
+
